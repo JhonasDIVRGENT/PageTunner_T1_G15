@@ -18,7 +18,7 @@ Este proyecto corresponde al examen T1 del curso Técnicas de Programación.
 
 El objetivo es representar en código Java el modelo de clases desarrollado para el caso de la librería académica PageTurner.
 
-El proyecto utiliza Programación Orientada a Objetos para representar las clases principales del sistema.
+
 
 ## Clases implementadas
 

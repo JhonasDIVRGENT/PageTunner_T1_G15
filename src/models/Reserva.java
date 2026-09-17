@@ -3,12 +3,13 @@ package models;
 import java.util.Date;
 
 public class Reserva {
-    //Cliente- Libro son referencia a un objeto de la clase del mismo nombre 
+
+    // Cliente y Libro son referencias a objetos de esas clases (relacion)
     private Cliente cliente;
     private Libro libro;
     private Date fecha;
-    
-    //Constructores
+
+    // Constructores
     public Reserva() {
     }
 
@@ -17,7 +18,8 @@ public class Reserva {
         this.libro = libro;
         this.fecha = fecha;
     }
-    //Getter-Setter
+
+    // Getter - Setter
     public Cliente getCliente() {
         return cliente;
     }
@@ -40,5 +42,12 @@ public class Reserva {
 
     public void setFecha(Date fecha) {
         this.fecha = fecha;
+    }
+
+    // Metodo para mostrar datos
+    public void mostrarDatos() {
+        System.out.println("Cliente: " + cliente.getNombre());
+        System.out.println("Libro: " + libro.getTitulo());
+        System.out.println("Fecha: " + fecha);
     }
 }
